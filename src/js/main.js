@@ -7,3 +7,5 @@ $("button").on("click", function () {
 
 $("div").addAttribute("data-name", "phone");
 $(".active").remAttribute("data-name");
+
+console.log($("button").html('Hello'));
