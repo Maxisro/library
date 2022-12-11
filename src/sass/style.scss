@@ -1,5 +1,29 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+div {
+	border: 2px solid black;
+	font-size: 20px;
+	padding: 20px;
+	margin: 10px;
+	width: 150px;
+	height: 100%;
+	text-align: center;
+
+	// display: inline-block;
+}
+.active {
+	font-size: 30px;
+	color: red;
+    background-color: rgb(236, 236, 236);
+}
+.button {
+	width: 150px;
+	height: 40px;
+	background-color: lightblue;
+	text-align: center;
+	margin: 10px;
+
 }
