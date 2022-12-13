@@ -1,20 +1,15 @@
 import "./lib/lib";
 import $ from "./lib/lib";
 
-$("button").on("click", function () {
-  $("div").eq(3).toggleClass("active");
+$("#first").on("click", () => {
+  $("div").eq(1).fadeOut(800);
+});
+$("[data-count='second']").on("click", () => {
+  $("div").eq(2).fadeOut(800);
 });
 
-$("div").addAttribute("data-name", "phone");
-$(".active").remAttribute("data-name");
-
-$("div").click(function () {
-  console.log($(this).index());
-});
-
-// console.log($("div").eq(2).find(".some"));
-// console.log($(".some").closest(".findme").addClass('test'));
-
-// console.log($(".more").eq(0).siblings());
-
-$(".findme").fadeIn(1800);
+$("button")
+  .eq(2)
+  .on("click", () => {
+    $(".w-500").fadeOut(800);
+  });
