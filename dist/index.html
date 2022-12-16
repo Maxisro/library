@@ -1,94 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Library</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<div class="container">
-			<header class="btn__container d-flex d-space-around f-centered">
-				<button class="btn btn-primary m20" id="first">
-					Fade out first text
-				</button>
-				<button class="btn btn-success m20" data-count="second">
-					Fade out second text
-				</button>
-				<button class="btn btn-danger m20">Fade out all texts</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="btn__container d-flex d-space-around f-centered">
+        <button class="btn btn-primary m20" id="first">
+          Fade out first text
+        </button>
+        <button class="btn btn-success m20" data-count="second">
+          Fade out second text
+        </button>
+        <button class="btn btn-danger m20">Fade out all texts</button>
 
-				<!-- Dropdown Menu -->
-				<div class="dropdown">
-					<button
-						class="btn btn-primary dropdown-toggle"
-						id="dropdownMenuButton"
-					>
-						Dropdown button
-					</button>
-					<div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
-						<a href="#" class="dropdown-item">Action</a>
-						<a href="#" class="dropdown-item">Action #2</a>
-						<a href="#" class="dropdown-item">Action #3</a>
-					</div>
-				</div>
-			</header>
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            id="dropdownMenuButton"
+          >
+            Dropdown button
+          </button>
+          <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Action #2</a>
+            <a href="#" class="dropdown-item">Action #3</a>
+          </div>
+        </div>
+      </header>
 
-			<!-- <div class="wrap">
+      <!-- <div class="wrap">
 
       </div> -->
 
-			<!-- Card -->
-			<div class="goods d-flex f-space-around">
-				<div class="card">
-					<img
-						src="https://images.pexels.com/photos/306763/pexels-photo-306763.jpeg?auto=compress&cs=tinysrgb&w=1600"
-						alt="photo"
-						class="card-img"
-					/>
-					<div class="card-body">
-						<div class="card-title">Card title #1</div>
-						<p class="card-text">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-							commodi dolorem aspernatur similique dolorum laborum eligendi
-							pariatur.
-						</p>
-						<a
-							href="#"
-							id="trigger"
-							class="btn btn-primary"
-							data-toggle="modal"
-							data-target="#exampleModal"
-							>Link to</a
-						>
-					</div>
-				</div>
-				<div class="card">
-					<img
-						src="https://images.pexels.com/photos/306763/pexels-photo-306763.jpeg?auto=compress&cs=tinysrgb&w=1600"
-						alt="photo"
-						class="card-img"
-					/>
-					<div class="card-body">
-						<div class="card-title">Card title #2</div>
-						<p class="card-text">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-							commodi dolorem aspernatur similique dolorum laborum eligendi
-							pariatur.
-						</p>
-						<a
-							href="#"
-							class="btn btn-primary"
-							data-toggle="modal"
-							data-target="#exampleModal2"
-							>Link to</a
-						>
-					</div>
-				</div>
-			</div>
+      <!-- Card -->
+      <div class="goods d-flex f-space-around">
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/306763/pexels-photo-306763.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="photo"
+            class="card-img"
+          />
+          <div class="card-body">
+            <div class="card-title">Card title #1</div>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
+              commodi dolorem aspernatur similique dolorum laborum eligendi
+              pariatur.
+            </p>
+            <a
+              href="#"
+              id="trigger"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#exampleModal"
+              >Link to</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/306763/pexels-photo-306763.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="photo"
+            class="card-img"
+          />
+          <div class="card-body">
+            <div class="card-title">Card title #2</div>
+            <p class="card-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
+              commodi dolorem aspernatur similique dolorum laborum eligendi
+              pariatur.
+            </p>
+            <a
+              href="#"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#exampleModal2"
+              >Link to</a
+            >
+          </div>
+        </div>
+      </div>
 
-			<!-- Modal -->
-			<!-- <div class="modal" id="exampleModal">
+      <!-- Modal -->
+      <!-- <div class="modal" id="exampleModal">
 				<div class="modal__dialog">
 					<div class="modal__content content-modal">
 						<button
@@ -117,112 +117,144 @@
 					</div>
 				</div>
 			</div> -->
-			<div class="modal" id="exampleModal2">
-				<div class="modal__dialog">
-					<div class="modal__content content-modal">
-						<button
-							class="modal__content-close content-modal__close"
-							data-close
-						>
-							<span>&times;</span>
-						</button>
-						<div class="content-modal__header">
-							<div class="content-modal__title">Modal title #2</div>
-						</div>
-						<div class="content-modal__body">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Perspiciatis similique, unde dolorem facilis pariatur earum dolore
-						</div>
-						<div class="content-modal__footer modal-footer">
-							<button class="modal-footer__btn btn btn-danger" data-close>
-								Close
-							</button>
-							<button class="modal-footer__btn btn btn-success">
-								Save changes
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
+      <div class="modal" id="exampleModal2">
+        <div class="modal__dialog">
+          <div class="modal__content content-modal">
+            <button
+              class="modal__content-close content-modal__close"
+              data-close
+            >
+              <span>&times;</span>
+            </button>
+            <div class="content-modal__header">
+              <div class="content-modal__title">Modal title #2</div>
+            </div>
+            <div class="content-modal__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis similique, unde dolorem facilis pariatur earum dolore
+            </div>
+            <div class="content-modal__footer modal-footer">
+              <button class="modal-footer__btn btn btn-danger" data-close>
+                Close
+              </button>
+              <button class="modal-footer__btn btn btn-success">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-			<!-- Tabs -->
-			<div class="tab mt-20 block-center">
-				<div class="tab-panel" data-tabpanel>
-					<div class="tab-item mr-10 tab-item--active">Content 1</div>
-					<div class="tab-item mr-10">Content 2</div>
-					<div class="tab-item mr-10">Content 3</div>
-				</div>
-				<div class="tab-content tab-content--active">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-					voluptates, repellendus in consequatur laudantium, maxime asperiores
-					architecto nulla aliquid, ut magni minima. Dolor voluptates, quas
-					consequuntur iusto facilis perferendis eveniet.
-					<br /><br />
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
-					quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
-					velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
-					deleniti vero eligendi.
-				</div>
-				<div class="tab-content">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-					voluptates, repellendus in consequatur laudantium, maxime asperiores
-					architecto nulla aliquid, ut magni minima. Dolor voluptates, quas
-					consequuntur iusto facilis perferendis eveniet.
-					<br /><br />
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
-					quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
-					velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
-					deleniti vero eligendi.
-					<br /><br />
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
-					quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
-					velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
-					deleniti vero eligendi.
-				</div>
-				<div class="tab-content">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-					voluptates, repellendus in consequatur laudantium, maxime asperiores
-					architecto nulla aliquid, ut magni minima. Dolor voluptates, quas
-					consequuntur iusto facilis perferendis eveniet.
-					<br /><br />
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
-					quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
-					velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
-					deleniti vero eligendi.
-					<br /><br />
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
-					quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
-					velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
-					deleniti vero eligendi.
-					<br /><br />
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
-					quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
-					velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
-					deleniti vero eligendi.
-				</div>
-			</div>
+      <!-- Tabs -->
+      <div class="tab mt-20 block-center">
+        <div class="tab-panel" data-tabpanel>
+          <div class="tab-item mr-10 tab-item--active">Content 1</div>
+          <div class="tab-item mr-10">Content 2</div>
+          <div class="tab-item mr-10">Content 3</div>
+        </div>
+        <div class="tab-content tab-content--active">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          voluptates, repellendus in consequatur laudantium, maxime asperiores
+          architecto nulla aliquid, ut magni minima. Dolor voluptates, quas
+          consequuntur iusto facilis perferendis eveniet.
+          <br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
+          quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
+          velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
+          deleniti vero eligendi.
+        </div>
+        <div class="tab-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          voluptates, repellendus in consequatur laudantium, maxime asperiores
+          architecto nulla aliquid, ut magni minima. Dolor voluptates, quas
+          consequuntur iusto facilis perferendis eveniet.
+          <br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
+          quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
+          velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
+          deleniti vero eligendi.
+          <br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
+          quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
+          velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
+          deleniti vero eligendi.
+        </div>
+        <div class="tab-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          voluptates, repellendus in consequatur laudantium, maxime asperiores
+          architecto nulla aliquid, ut magni minima. Dolor voluptates, quas
+          consequuntur iusto facilis perferendis eveniet.
+          <br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
+          quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
+          velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
+          deleniti vero eligendi.
+          <br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
+          quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
+          velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
+          deleniti vero eligendi.
+          <br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
+          quae! Eos blanditiis quibusdam debitis dolorum asperiores corrupti
+          velit eius illum a, voluptatum ex, culpa pariatur aperiam repellat,
+          deleniti vero eligendi.
+        </div>
+      </div>
 
-			<!-- Accordion -->
-			<div class="accordion mt-20 block-center">
-				<div class="accordion-head "><span>Collaps first element</span></div>
-				<div class="accordion-content ">
-					<div class="accordion-inner">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel labore
-						laborum ad quam explicabo non, fugiat asperiores temporibus hic nam
-						minus blanditiis voluptatem quod cum alias quia quo aperiam nihil?
-						
-					</div>
-				</div>
-				<div class="accordion-head"><span>Collaps second element</span></div>
-				<div class="accordion-content ">
-					<div class="accordion-inner">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel labore
-						laborum ad quam explicabo non, fugiat asperiores temporibus hic nam
-						minus blanditiis voluptatem quod cum alias quia quo aperiam nihil?
-					</div>
-				</div>
-			</div>
-		</div>
-		<script src="script.js"></script>
-	</body>
+      <!-- Accordion -->
+      <div class="accordion mt-20 block-center">
+        <div class="accordion-head"><span>Collaps first element</span></div>
+        <div class="accordion-content">
+          <div class="accordion-inner">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel labore
+            laborum ad quam explicabo non, fugiat asperiores temporibus hic nam
+            minus blanditiis voluptatem quod cum alias quia quo aperiam nihil?
+          </div>
+        </div>
+        <div class="accordion-head"><span>Collaps second element</span></div>
+        <div class="accordion-content">
+          <div class="accordion-inner">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel labore
+            laborum ad quam explicabo non, fugiat asperiores temporibus hic nam
+            minus blanditiis voluptatem quod cum alias quia quo aperiam nihil?
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="carousel" id="example">
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0"></li>
+          <li data-slide-to="1"></li>
+          <li data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-slides">
+            <div class="carousel-item">
+              <img
+                src="https://media.npr.org/assets/img/2014/08/07/monkey-selfie_custom-7117031c832fc3607ee5b26b9d5b03d10a1deaca-s1100-c50.jpg"
+                alt="photo"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1664299631876-f143dc691c4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjBtb25rZXl8ZW58MHx8MHx8&w=1000&q=80"
+                alt="photo"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://news.artnet.com/app/news-upload/2015/11/1133593_942736.jpg"
+                alt="photo"
+              />
+            </div>
+          </div>
+        </div>
+		  <a href="#" class="carousel-prev" data-slide="prev"><span class="carousel-prev-icon">&lt;</span></a>
+		  <a href="#" class="carousel-next" data-slide="next"><span class="carousel-prev-icon">&gt;</span></a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
